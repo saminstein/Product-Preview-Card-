@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}   
+
+
+.product-container {
+    width: 600px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;    
+    border-radius: 10px;
+}
+
+
+.image-desktop {
+    width: 300px;
+    height: 450px;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.image-mobile {
+    display: none;
+}
+
+
+.card {
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+}
+
+
+.card-category {      
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+}
+
+
+.card-name {
+    font-family: 'Fraunces';
+    font-size: 37px;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+
+.card-info { 
+   font-family: 'Montserrat';
+   font-size: 14px; /*16*/
+   font-weight: 500;
+   color: hsl(228, 12%, 48%);
+   margin-top: 20px;
+   line-height: 25px;
+}
+
+
+.new-price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces';
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+
+.card-prices {   
+    align-items: center;
+    margin-bottom: 30px;  
+}
+
+
+.old-price {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    font-size: small;
+    text-decoration: line-through;
+    line-height: 30px;
+    display: flex;
+}
+
+
+.cart {
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: white;
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;         
+}
+
+
+svg {
+    margin: 10px;
+}
+
+
+.cart-button {
+    margin-bottom: 30px;    
+}
+
+
+
+

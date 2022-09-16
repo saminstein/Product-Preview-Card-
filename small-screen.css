@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 600px){
+.product-container {
+    flex-direction: column;
+    width: 326px;
+    height: 667px;
+}
+
+
+.image-mobile {
+    width: 326px;
+    height: 318px;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.image-desktop {
+    display: none;
+}
+
+
+.card {
+    flex-direction: column;
+    display: flex;
+    padding: 0 17px 5px 0;
+}
+
+
+.cart-button {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.cart {
+    width: 270px;
+    height: 40px;
+    display: flex;
+}
+
+}
+
